@@ -1,0 +1,149 @@
+#body{
+    background-color: whitesmoke;
+}
+h1 {
+	margin: 1em 0 0.5em 0;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #00caa6;
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 58px;
+	line-height: 54px;
+	text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+}
+#searchBarAtt{
+    float: left;
+    font-weight: 300;
+}
+
+#searchBarinput{
+    height: 50px;
+}
+.search-bar{
+    margin:20px;
+    text-align: center;
+}
+
+.search-bar input{
+    width: 75%;
+}
+
+.video-list img{
+    max-width: 250px;
+    display: inline;
+}
+
+.video-detail {
+    padding: 10px;
+    background: white;
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.video-detail .details{
+    color: black;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    
+}
+.group-item{
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+    width: 150px;
+    word-wrap: break-word;
+
+}
+.group-item:hover{
+    color: blue;
+    
+}
+
+#eachItem{
+    /*display: inline-block;*/
+    margin-right: 10px;
+    vertical-align: top;
+    overflow: visible;
+    height: 210px;
+    overflow: auto;
+}
+#item{
+    
+    width: 74%;
+    height: 80%;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-left:4%;
+	padding-bottom: 20px;
+    padding-top: 10px;
+    margin: auto;
+    flex: center;
+    box-shadow: 10px 10px 5px grey;
+    border-color: gray;
+    
+}
+
+img{
+	cursor: pointer;
+	transition: all .5s ease;
+}
+img:hover{
+	transform: scale(1.2,1.2);
+}
+
+.arrows {
+	position:relative;
+	width: 100%;
+}
+
+
+.arrow-left {
+	color: #fff;
+	position: absolute;
+	background: #777;
+	padding: 15px;
+	left: -25px;
+	top: -130px;
+	z-index: 99;
+	cursor: pointer;
+}
+
+.arrow-right {
+	color: #fff;
+	position: absolute;
+	background: #777;
+	padding: 15px;
+	right: -25px;
+	top: -130px;
+	z-index:100;
+	cursor: pointer;
+}
+
+
+.thumb {
+	overflow:hidden;
+	height: 84px;
+}
+
+.thumb img {
+	width: 100%;
+	position: relative;
+	top: -13px;
+}
+
+.desc {
+	color: #21A1D2;
+	font-size: 15px;
+	margin-top:5px;
+}
+
